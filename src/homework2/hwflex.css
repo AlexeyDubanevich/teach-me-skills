@@ -1,0 +1,79 @@
+.container-1 div, .big-container div{
+
+    border: 1px solid white;
+
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+
+}
+.box{
+    flex-basis: 25%;
+
+    height: 100px;
+}
+.big-container{
+
+    display: flex;
+    flex-direction: row;
+}
+.red{
+    display: flex;
+    flex-direction: column;
+}
+.box6{
+
+    width: 267px;
+    height:60px;
+    background-color: red;
+
+}
+.box7, .box8{
+    height:168px;
+    background-color: red;
+}
+
+.blue-yellow{
+    display:flex;
+    flex-direction: column;
+}
+.blue{
+    display: flex;
+
+}
+.boxblue{
+    width:177px;
+    height:155px;
+    background-color: blueviolet;
+}
+.yellow{
+    display:flex;
+}
+.boxyellow{
+    background-color: yellow;
+    height: 240px;
+    width: 266px;
+}
+.akvamarine{
+    display:flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+}
+.akvabox{
+    background-color: aquamarine;
+    width:266px;
+    height: 130px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+}

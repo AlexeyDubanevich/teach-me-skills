@@ -1,0 +1,31 @@
+div{
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+.thead{
+    display: flex;
+    font-weight: bold;
+
+
+}
+.thead div{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+
+}
+.row div{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.twice-column{
+    width: 50%;
+
+}
