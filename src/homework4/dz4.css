@@ -1,0 +1,296 @@
+
+.first-grid-container{
+    display: grid;
+padding: 3px;
+    grid-template-areas:
+"first . . . . .  second second second . . . third";
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.search{
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: white;
+    outline: none;
+    height: 30px;
+}
+.block1 {
+    grid-area: first;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 17px;
+    margin: 5px;
+
+}
+.block2{
+    grid-area: second;
+    font-family: "Freestyle Script";
+    color: orange;
+}
+.block3{
+    grid-area: third;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 17px;
+    margin: 5px;
+
+}
+.second-grid-container{
+    display:grid;
+    grid-template-columns: repeat(10,1fr) 2fr;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 15px;
+
+}
+.block{
+    font-family: "Myanmar Text";
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.third-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+.button-s-n{
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.fourth-grid-container{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 40px;
+
+
+}
+.part-one{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+
+}
+.underpart1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 1px;
+}
+.underpart2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 1px;
+}
+.underpart3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 1px;
+}
+
+.block4{
+    font-family: "Myanmar Text";
+    font-size: small;
+    color: grey;
+    text-align: center;
+}
+.block5{
+    font-family: "Myanmar Text";
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.block6{
+    font-family: "Myanmar Text";
+    font-size: small;
+    text-align: center;
+}
+.arrow{
+    text-align: center;
+}
+
+.part-three{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.block-part1{
+    padding:10px;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Freestyle Script";
+
+ }
+.orange{
+    color: orange;
+}
+.block-part2{
+    padding:10px;
+    font-family: "Myanmar Text";
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: "Freestyle Script";
+
+}
+.block-part3{
+    padding:10px;
+    font-weight: bold;
+}
+.block-next{
+    font-family: "Myanmar Text";
+    font-size: large;
+    text-align: left;
+    color: orange;
+    font-weight: bold;
+
+
+}
+.fifth-grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin:5px;
+
+}
+.block7{
+    height:1px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Myanmar Text";
+}
+.block8{
+    text-align: center;
+}
+.block9{
+    text-align: center;
+    height:50px;
+}
+.button-o-n{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.sixth-grid-container{
+    display:flex;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+    margin-bottom: 10px;
+
+}
+.block10{
+    font-weight: bold;
+    font-family: "Myanmar Text";
+}
+.block11{
+    font-family: "Myanmar Text";
+    font-size: small;
+    cursor: pointer;
+}
+.links{
+    width: 340px;
+}
+.useful{
+    width: 290px;
+}
+.stay{
+    width: 390px;
+}
+.testi{
+    width: 310px;
+}
+.block-name-email{
+    padding:10px;
+    border-radius: 10px;
+}
+.block-join{
+    padding:10px;
+}
+.button-name-email{
+    border-radius: 10px;
+    outline: none;
+    background-color:white;
+    color: white;
+
+}
+.button-join{
+    border-radius: 10px;
+    outline: none;
+    background-color: deepskyblue;
+    color: white;
+    cursor: pointer;
+
+}
+.seventh-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 430px;
+}
+.center{
+    color: grey;
+}
+
+.block:hover{
+    color: orange;
+}
+.block11:hover{
+    color: orange;
+}
+.button-o-n:hover{
+    color: orange;
+}
+.button-s-n:hover{
+    color: orange;
+}
+.button-join:hover{
+    color: orange;
+}
+
+
+
+
+
