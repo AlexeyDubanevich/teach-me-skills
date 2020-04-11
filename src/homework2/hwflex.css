@@ -18,21 +18,24 @@
 
     display: flex;
     flex-direction: row;
+    height:400px;
+    width:1365px;
+
 }
 .red{
     display: flex;
     flex-direction: column;
-}
-.box6{
+    height:400px;
+    width:265px;
+    overflow: auto;
 
-    width: 267px;
-    height:60px;
-    background-color: red;
 
 }
-.box7, .box8{
-    height:168px;
-    background-color: red;
+.red-box{
+    background: red;
+    height:150px;
+    width:240px;
+    flex-shrink: 0;
 }
 
 .blue-yellow{
@@ -40,40 +43,50 @@
     flex-direction: column;
 }
 .blue{
+    width:540px;
+
     display: flex;
+    overflow: auto;
 
 }
 .boxblue{
     width:177px;
-    height:155px;
+    height:150px;
     background-color: blueviolet;
+    flex-shrink: 0;
 }
 .yellow{
     display:flex;
+    overflow: auto;
+    width:540px;
 }
-.boxyellow{
+.boxyellow {
     background-color: yellow;
     height: 240px;
     width: 266px;
+    flex-shrink: 0;
 }
-.akvamarine{
+.aquamarine{
     display:flex;
     flex-direction: column;
+    border: 1px solid black;
+    width:540px;
+    height:400px;
+    flex-shrink: 0;
+    overflow: auto;
 }
-.first{
+.aquamarine-row{
     display: flex;
-    flex-direction: row;
+    width: 519px;
+    height:132px;
+    flex-shrink: 0;
+    overflow: auto;
+
+
 }
-.akvabox{
-    background-color: aquamarine;
-    width:266px;
-    height: 130px;
+.aquamarine-box{
+    background: aqua;
+    width:270px;
+    flex-shrink: 0;
 }
-.second{
-    display: flex;
-    flex-direction: row;
-}
-.third{
-    display: flex;
-    flex-direction: row;
-}
+
