@@ -214,6 +214,9 @@ height: 100px;
     color: grey;
     font-weight: bold;
 }
+.eith{
+    position: relative;
+}
 .eithh2{
     text-align: center;
     margin-top: 100px;
@@ -227,10 +230,11 @@ height: 100px;
     margin-left:420px;
 }
 .video{
-    background: lightgrey;
-    height:550px;
+
     width:1220px;
     margin:70px;
+    outline: none;
+
 }
 .videobutton{
     background: deepskyblue;
@@ -241,6 +245,10 @@ height: 100px;
     outline: none;
     margin-left:560px;
     margin-top: 240px;
+    position: absolute;
+    left: 70px;
+    top:250px;
+
 
 }
 .row{
@@ -409,14 +417,52 @@ textarea::placeholder{
     display: flex;
     flex-direction: column;
 }
+.footerul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
 .bigtext{
     color: white;
     font-weight: bold;
     margin-bottom: 20px;
 }
 .normaltext{
-    color: white;
+    color: lightgrey;
     margin-bottom: 5px;
+
+}
+li:hover{
+    cursor: pointer;
+    color: deepskyblue;
+    border:2px solid deepskyblue;
+    border-top:none;
+    border-left:none ;
+    border-right: none;
+}
+.headerbutton:hover{
+    background: linear-gradient(to right, violet, blue);;
+    cursor: pointer;
+}
+.twelvebutton:hover{
+    background: linear-gradient(to right, violet, blue);;
+    cursor: pointer;
+
+}
+.normaltext:hover{
+color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+.bigtext:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+.footera{
+    font-weight: normal;
 }
 
 
